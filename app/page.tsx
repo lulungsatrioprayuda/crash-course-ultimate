@@ -1,8 +1,13 @@
 const Page = () => {
   return (
     <div>
-      <h1>Welcome to the Crash Course Ultimate</h1>
-      <p>This is a simple page component.</p>
+      <section>
+        <h1 className="text-center">
+          Welcome to the Dev Hub <br />
+          The ultimate Hub for developers!
+        </h1>
+        <p className="text-center mt-5">This is a simple page component.</p>
+      </section>
     </div>
   );
 };
